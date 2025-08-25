@@ -2,7 +2,7 @@ Placement Preparation Tracker
 
 [Live Demo](https://tcs-nqt-preparation-tracker.vercel.app/)
 
-This project is an all-in-one tracker for TCS exam preparation, combining both Aptitude and Coding sections in a single dashboard. It is designed to help you systematically track your progress through the TCS syllabus and coding questions, making your preparation more organized and efficient.
+This project is an all-in-one tracker for Placment preparation, combining both Aptitude and Coding sections in a single dashboard. It is designed to help you systematically track your progress through the TCS syllabus and coding questions, making your preparation more organized and efficient.
 
 ## Features
 

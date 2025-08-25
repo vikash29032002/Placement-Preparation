@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="TCS NQT, TCS NQT Preparation tracker, TCS preparation Tracker, TCS preparation, TCS placement, TCS NQT tracker, TCS DSA sheet, TCS coding sheet, TCS aptitude syllabus, TCS NQT syllabus, TCS Ninja preparation, TCS Digital preparation, TCS mock tests, TCS previous questions, TCS coding questions, TCS aptitude questions, TCS NQT 2024, TCS placement roadmap, TCS preparation strategy, free TCS prep, TCS NQT dashboard">
+    <title>TCS NQT Preparation Tracker | TCS Coding Sheet | Aptitude Syllabus | TCS Placement Roadmap</title>
+    <meta name="description" content="Free TCS NQT preparation tracker with DSA sheets, coding questions, aptitude syllabus, and progress monitoring. Complete roadmap for TCS placement success.">
+    <link rel="canonical" href="https://tcs-nqt-preparation-tracker.vercel.app/" />
+    <meta property="og:title" content="TCS NQT Preparation Tracker | TCS Coding Sheet | Aptitude Syllabus | Placement Roadmap" />
+    <meta property="og:description" content="Free TCS NQT preparation tracker with DSA sheets, coding questions, aptitude syllabus, and progress monitoring. Complete roadmap for TCS placement success." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tcs-nqt-preparation-tracker.vercel.app/" />
+    <meta property="og:image" content="https://tcs-nqt-preparation-tracker.vercel.app/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TCS NQT Preparation Tracker | TCS Coding Sheet | Aptitude Syllabus | Placement Roadmap" />
+    <meta name="twitter:description" content="Free TCS NQT preparation tracker with DSA sheets, coding questions, aptitude syllabus, and progress monitoring. Complete roadmap for TCS placement success." />
+    <meta name="twitter:image" content="https://tcs-nqt-preparation-tracker.vercel.app/og-image.png" />
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div>
+    <h1 style="text-align:center; font-size:2.5rem; padding-top: 2rem; color:#fff; font-weight:800;  letter-spacing:1px;">TCS Preparation Tracker</h1>
+    <div class="navbar" style="display: flex; justify-content: center;">
+        <div class="nav-tab active" data-section="aptitude">Aptitude</div>
+        <div class="nav-tab" data-section="coding">Coding</div>
+        <div class="nav-tab" data-section="resources">Resources</div>
+    </div>
+
+    <div class="container">
+        <!-- Overall Progress -->
+        <div class="overall-progress-container">
+            <div class="progress-header">
+                <h3>Overall Preparation Progress</h3>
+                <div id="overall-progress-percentage">0%</div>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar overall-progress-bar" id="overall-progress-fill" style="width: 0%"></div>
+            </div>
+            <!-- progress-stats removed -->
+           <div style="display: flex; width: 100%; gap: 2%;">
+             <div style="margin-top: 15px; width: 48%; ">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                    <span>Aptitude Progress</span>
+                    <span id="aptitude-progress-percentage">0%</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar aptitude-progress-bar" id="aptitude-progress-fill" style="width: 0%"></div>
+                </div>
+            </div>
+            <div style="margin-top: 15px; width: 48%;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                    <span>Coding Progress</span>
+                    <span id="coding-progress-percentage">0%</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar coding-progress-bar" id="coding-progress-fill" style="width: 0%"></div>
+                </div>
+            </div>
+           </div>
+        </div>
+
+        <!-- Aptitude Section -->
+        <div class="section active" id="aptitude">
+            <h2>Aptitude Preparation</h2>
+            
+            <div class="topics-container" id="aptitude-topics-container">
+                <!-- Aptitude topics will be inserted here by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Coding Section -->
+        <div class="section" id="coding">
+            <h2>Coding Preparation</h2>
+            
+            <div class="topics-container" id="coding-topics-container">
+                <!-- Coding topics will be inserted here by JavaScript -->
+            </div>
+        </div>
+        <!-- Resources Section -->
+        <div class="container section" id="resources" style="margin-top: 32px; display:none;">
+            <h2 style="margin-bottom: 12px; color: #232526;">Resources</h2>
+            <ul style="list-style: disc inside; font-size: 1.08rem; color: #222;">
+                <li>
+                    <strong>CampusMonk DSA Black Book</strong> – <a href="https://campusmonk.com/" target="_blank" rel="noopener">campusmonk.com</a>
+                </li>
+                <li>
+                    <strong>GFG DSA Sheet</strong> – <a href="https://www.geeksforgeeks.org/dsa/tcs-sde-sheet-interview-questions-and-answers/" target="_blank" rel="noopener">TCS SDE Sheet (GeeksforGeeks)</a>
+                </li>
+                <li>
+                    <strong>GFG Test Series</strong> – <a href="https://www.geeksforgeeks.org/courses/tcs-interview-preparation" target="_blank" rel="noopener">TCS Interview Preparation (GeeksforGeeks)</a>
+                </li>
+            </ul>
+            <p style="margin-top: 10px; color: #666; font-size: 0.98rem;">More resources will be added in the future.</p>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</div>
+
+
+</body>
+</html>

@@ -32,9 +32,8 @@ This project is an all-in-one tracker for TCS exam preparation, combining both A
 
 ## Contributing
 
-If you want to contribute (for example, by adding more questions, topics, or reporting missing topics), feel free to contact me!
 
-You can reach out via GitHub issues or by email (siddharthcpn2512@gmail.com), and your suggestions or contributions are welcome.
+
 
 ---
 

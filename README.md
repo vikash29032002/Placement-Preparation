@@ -1,4 +1,4 @@
-#Placement Preparation Tracker
+Placement Preparation Tracker
 
 [Live Demo](https://tcs-nqt-preparation-tracker.vercel.app/)
 
